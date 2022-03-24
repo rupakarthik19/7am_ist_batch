@@ -1,20 +1,21 @@
 package Com.testscenarios;
 
-import java.io.File;
-
 import org.openqa.selenium.By;
+
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.io.FileHandler;
+//import org.openqa.selenium.io.FileHandler
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
+//import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
 public class Assignment11_gettextvsAttribute {
 
-	private static final String TakesScreenshot = null;
+	//private static final String TakesScreenshot = null;
 
 	public static void main(String[] args) throws Exception {
 

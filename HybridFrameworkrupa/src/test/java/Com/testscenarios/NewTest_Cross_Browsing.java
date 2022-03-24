@@ -1,15 +1,15 @@
 package Com.testscenarios;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByXPath;
+//import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class NewTest_Cross_Browsing {
-  @Test
+  //@Test
   public void f() throws Exception {
   
 	  

@@ -2,31 +2,24 @@ package Com.testscenarios;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByClassName;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.github.dockerjava.api.model.Driver;
-
+import Com.Utilities.Commonfunctionalities;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import net.jcip.annotations.GuardedBy;
 
-public class FBlogin {
+public class FBlogin extends Commonfunctionalities {
 
 	public static void main(String[] args) {
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
-		
-		
+//		WebDriver driver;
+//		WebDriverManager.chromedriver().setup();
+//		driver = new ChromeDriver();
+//		
+		chromebrowserlaunch();
 		driver.get("https://www.facebook.com/");
 
 	driver.findElement(By.id("display")).sendKeys("abcedrf@gmail.coms");
-	
-
-		
-		
-		
-		
+    System.out.println("hi");		
 	}
 
 }
